@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: likelion-backend-1
 spec:
-  replicas: 3                 # 복제 Pod 개수
+  replicas: 1                 # 복제 Pod 개수
   strategy:                   # 업데이트 전략
     type: RollingUpdate
     rollingUpdate:

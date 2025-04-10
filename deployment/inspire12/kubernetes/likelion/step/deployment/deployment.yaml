@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: likelion-deployment
 spec:
-  replicas: 1 # TODO 1
+  replicas: 3 # TODO 1
   selector:
     matchLabels:
       app: likelion
